@@ -18,11 +18,8 @@ Aplicação web "To-Do List" com filtro de pesquisa, status de tarefa e persiste
    ```bash
    git clone https://github.com/yudihonda/ToDoPHP.git
    ```
-2. Importe o .SQL em seu ambiente de DB
-- **Configure o arquivo de conexão:** O arquivo `/database/conect.php` precisa ser configurado com as credenciais corretas do banco de dados.
-- **Inicie o servidor Apache:** A aplicação PHP depende do servidor Apache para rodar. Este passo é essencial.
-- **Acesse a aplicação no navegador:** Após configurar o ambiente, basta acessar a aplicação no navegador local.
-
-Isso deve fornecer um guia claro e conciso para os usuários do seu projeto!
+3. Importe o .SQL em seu ambiente de DB
+4. Inicie o servidor Apache:** A aplicação PHP depende do servidor Apache para rodar. Este passo é essencial.
+5. Acesse a aplicação no navegador:** Após configurar o ambiente, basta acessar a aplicação no navegador local.
 
 
