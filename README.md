@@ -16,7 +16,7 @@ Aplicação web "To-Do List" com filtro de pesquisa, status de tarefa e persiste
 ## Usage
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/yudihonda/CRUDVeiculos.git
+   git clone https://github.com/yudihonda/ToDoPHP.git
    ```
 2. Importe o .SQL em seu ambiente de DB
 - **Configure o arquivo de conexão:** O arquivo `/config/db.php` precisa ser configurado com as credenciais corretas do banco de dados.
