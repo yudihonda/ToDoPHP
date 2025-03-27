@@ -1,0 +1,110 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url("../images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #ffffff;
+  padding: 18px;
+  border-radius: 8px;
+  width: 430px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.todo h1 {
+  color: #000000;
+  font-size: 28px;
+  text-align: center;
+}
+.todoform {
+  display: flex;
+  width: 100%;
+}
+.todoform1 {
+  display: none;
+  width: 100%;
+}
+.todoform input,
+.todoform1 input {
+  background-color: transparent;
+  border: 1px solid #d3d3d3;
+  color: #222222;
+  font-size: 16px;
+  width: 100%;
+  padding: 4px;
+  margin-right: 4px;
+  border-radius: 6px;
+}
+.todoform button,
+.todoform1 button {
+  margin-left: 4px;
+  border: none;
+  border-radius: 8px;
+  min-width: 35px;
+  min-height: 35px;
+  background-color: #919191;
+  font-size: 20px;
+  transition: scale 0.5s ease;
+  cursor: pointer;
+}
+.todoform button:hover,
+.todoform1 button:hover {
+  background-color: #7a7a7a;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #262626;
+  background-color: #dddddd;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 3px;
+}
+.content {
+  display: flex;
+}
+.content checkbox {
+  margin-right: 10px;
+}
+.taskdes {
+  margin-left: 8px;
+  color: #7a7a7a;
+}
+.edit,
+.delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+footer {
+  background-color: #ffffff;
+  color: #616161;
+  padding: 10px 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilo para os links no rodapé */
+footer a {
+  color: #66c5cc;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
